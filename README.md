@@ -1,7 +1,7 @@
 # HPTI-SEP-2023
 
 **nikto**
-Nikto is an essential tool in the arsenal of cybersecurity professionals, web administrators, and penetration testers. It can scan web servers for a wide range of vulnerabilities, including outdated software, insecure configurations, and common security pitfalls.
+is an essential tool in the arsenal of cybersecurity professionals, web administrators, and penetration testers. It can scan web servers for a wide range of vulnerabilities, including outdated software, insecure configurations, and common security pitfalls.
 
 Nikto is a powerful web server vulnerability scanner that offers a wide range of features for identifying potential security issues in web servers and web applications. Here are some of the key features of Nikto:
 
@@ -27,7 +27,7 @@ Nikto is a powerful web server vulnerability scanner that offers a wide range of
 
 
 **burp suite**
-Burp Suite is a popular and versatile cybersecurity tool used for web application security testing, analysis, and vulnerability assessment. Developed by PortSwigger, it is widely used by ethical hackers, penetration testers, and security professionals to identify and address security issues in web applications. 
+ is a popular and versatile cybersecurity tool used for web application security testing, analysis, and vulnerability assessment. Developed by PortSwigger, it is widely used by ethical hackers, penetration testers, and security professionals to identify and address security issues in web applications. 
 
 **some features of burp suite**
 
