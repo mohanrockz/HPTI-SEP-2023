@@ -1,0 +1,41 @@
+**Nikto** 
+is a widely used open-source web server vulnerability scanner that helps security professionals and ethical hackers identify potential security issues in web servers and web applications. It is designed to automate the process of scanning web servers for various known vulnerabilities, misconfigurations, and security weaknesses. Nikto is a command-line tool written in Perl and is known for its comprehensive database of known vulnerabilities and its ability to generate detailed reports.
+
+Here's a brief introduction to Nikto along with a simple example of how to use it:
+
+**Introduction:**
+
+Nikto is an essential tool in the arsenal of cybersecurity professionals, web administrators, and penetration testers. It can scan web servers for a wide range of vulnerabilities, including outdated software, insecure configurations, and common security pitfalls. Nikto's extensive database is continually updated to include the latest security threats and vulnerabilities.
+
+**Example Usage:**
+
+Let's say you want to scan a website hosted at "example.com" using Nikto. Here's a basic command you can use:
+
+
+nikto -h example.com
+
+In this example:
+- `nikto` is the command to run Nikto.
+- `-h` specifies the target host (in this case, "example.com").
+
+Basic Scanning:
+
+-h <hostname>: Specifies the target host to scan (e.g., -h example.com).
+-p <port>: Specifies the target port (default is 80).
+-ssl: Enable SSL scanning (HTTPS).
+-id <id>: Specify a custom name/ID for the scan.
+Scan Tuning:
+
+-T <0-3>: Set the scan tuning level (0 - Paranoid, 3 - Evasive, default is 1).
+-maxtime <time>: Limit the maximum scan time in seconds.
+-maxdelay <time>: Set the maximum request delay time between requests.
+Authentication:
+
+-id <id>:<password>: Specify a username and password for HTTP authentication.
+-mutate <options>: Perform mutation testing (e.g., -mutate 1 for common mutations).
+
+When you run this command, Nikto will initiate a scan of the specified website and generate a report highlighting any vulnerabilities or issues it finds. The output will include information about potential security concerns, such as outdated software versions, exposed directories, and more.
+
+Keep in mind that Nikto offers various options and configurations to tailor your scans to specific needs, including options for authentication, custom plugins, and output formats. You can consult Nikto's documentation and help menu to explore these options further.
+
+Remember to use Nikto responsibly and only on systems and websites for which you have explicit authorization to perform security scans. Unauthorized scanning of web servers can be illegal and unethical.
